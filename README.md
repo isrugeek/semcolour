@@ -3,7 +3,7 @@
 [Project](https://github.com/isrugeek/semcolour) | [Arxiv](https://arxiv.org/abs/) | 
 [Dataset](https://github.com/isrugeek/semcolour/datasets)
 
-Keras implementation for learning a mapping from gray images to colorful images, for example:
+Keras implementation for learning a mapping from SEM gray images to colorful images, for example:
 
 <img src="results_nst/AI-06.jpg" width="500px"/>
 
