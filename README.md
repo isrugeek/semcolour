@@ -28,7 +28,7 @@ An intelligent way to Colour Nanoscale Microscopy Images Using Machine Learning
 pip install scikit-image
 pip install jupyter
 ```
-- Install livelossplot[livelossplot](https://github.com/stared/livelossplot)(optional) - live monitor during training. 
+- Install [livelossplot](https://github.com/stared/livelossplot)(optional) - a live monitor during training. 
 
 - Clone this repo:
 ```bash
