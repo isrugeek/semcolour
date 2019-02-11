@@ -10,6 +10,10 @@ Keras implementation for learning a mapping from SEM gray images to colorful ima
 <img src="results_nst/AI-06.jpg" width="100px"/>
 <img src="results_nst/AI-06.jpg" width="100px"/>
 <img src="results_nst/AI-06.jpg" width="100px"/>
+<img src="results_nst/AI-06.jpg" width="100px"/>
+<img src="results_nst/AI-06.jpg" width="100px"/>
+<img src="results_nst/AI-06.jpg" width="100px"/>
+<img src="results_nst/AI-06.jpg" width="100px"/>
 </p>
 
 
