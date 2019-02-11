@@ -54,12 +54,12 @@ iteration = 100
 
 target_size = (256, 256)
 ```
+## Test
+Run the last cell in the `End2End.ipynb` file to test the datasets which in `devset_path` and save these to `results` directory. 
+
 ## Note
 `flow_from_directory_regress.py` is rewrite the class `ImageDataGenerator`, adding `register_batch_process` method to make
 our preprocess process more convenient, make sure u have this py file in your work directory.
-
-## Test
-Run the last cell in the `End2End.ipynb` file to test the datasets which in `devset_path` and save these to `results` directory. 
 
 ## Datasets
 We collected 800 colorful sem-images as `SEMCOLORFUL1.0` in the `datasets` directory split into `devset` and `trainset`.
