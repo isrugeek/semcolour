@@ -1,42 +1,39 @@
 
 # An intelligent way to Colour Nanoscale Microscopy Images Using Machine Learning
-[Project](https://isrugeek.github.io/) | [Arxiv](https://arxiv.org/abs/) | 
-[Dataset](https://github.com/isrugeek/semcolour/dataset.zip)
+[Project](https://github.com/isrugeek/semcolour) | [Arxiv](https://arxiv.org/abs/) | 
+[Dataset](https://github.com/isrugeek/semcolour/datasets)
 
-Torch implementation for learning a mapping from input images to output images, for example:
+Keras implementation for learning a mapping from gray images to colorful images, for example:
 
-<img src="imgs/examples.jpg" width="900px"/>
+<img src="results_nst/AI-06.jpg" width="900px"/>
 
-Image-to-Image Translation with Conditional Adversarial Networks  
- [Phillip Isola](http://web.mit.edu/phillipi/), [Jun-Yan Zhu](https://people.eecs.berkeley.edu/~junyanz/), [Tinghui Zhou](https://people.eecs.berkeley.edu/~tinghuiz/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/)   
- CVPR, 2017.
+An intelligent way to Colour Nanoscale Microscopy Images Using Machine Learning
+ [Israel Goytom](http://web.mit.edu/phillipi/), 
+ Nature communication, 2019.
 
-On some tasks, decent results can be obtained fairly quickly and on small datasets. For example, to learn to generate facades (example shown above), we trained on just 400 images for about 2 hours (on a single Pascal Titan X GPU). However, for harder problems it may be important to train on far larger datasets, and for many hours or even days.
 
-**Note**: Please check out our [PyTorch](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) implementation for pix2pix and CycleGAN. The PyTorch version is under active development and can produce results comparable to or better than this Torch version.
+**Note**: Please check out our [Keras](https://github.com/isrugeek/semcolour) implementation for End2End ColorNet(End2End.ipynb) and CNN-NST(CnnNST.ipynb). 
 
 ## Setup
 
 ### Prerequisites
 - Linux or OSX
 - NVIDIA GPU + CUDA CuDNN (CPU mode and CUDA without CuDNN may work with minimal modification, but untested)
+- Keras with tensorflow backend
 
 ### Getting Started
-- Install torch and dependencies from https://github.com/torch/distro
-- Install torch packages `nngraph` and `display`
+- Install keras with tensorflow backend and dependencies from https://keras.io/#installation
+- Install python packages `jupyter-notebook` and `scikit-image`
 ```bash
-luarocks install nngraph
-luarocks install https://raw.githubusercontent.com/szym/display/master/display-scm-0.rockspec
+pip install scikit-image
+pip install jupyter
 ```
 - Clone this repo:
 ```bash
-git clone git@github.com:phillipi/pix2pix.git
-cd pix2pix
+git clone https://github.com/isrugeek/semcolour
+cd semcolour
 ```
-- Download the dataset (e.g., [CMP Facades](http://cmp.felk.cvut.cz/~tylecr1/facade/)):
-```bash
-bash ./datasets/download_dataset.sh facades
-```
+
 - Train the model
 ```bash
 DATA_ROOT=./datasets/facades name=facades_generation which_direction=BtoA th train.lua
