@@ -6,8 +6,11 @@
 Keras implementation for learning a mapping from SEM gray images to colorful images, for example:
 
 <img src="results_nst/AI-06.jpg" width="500px"/>
-<img src="results_nst/AI-06.jpg" width="100px"/><img src="results_nst/AI-06.jpg" width="100px"/><img src="results_nst/AI-06.jpg" width="100px"/>
-
+<p float="left">
+<img src="results_nst/AI-06.jpg" width="100px"/>
+<img src="results_nst/AI-06.jpg" width="100px"/>
+<img src="results_nst/AI-06.jpg" width="100px"/>
+</p>
 
 
 An intelligent way to Colour Nanoscale Microscopy Images Using Machine Learning
