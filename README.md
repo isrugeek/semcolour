@@ -8,7 +8,7 @@ Keras implementation for learning a mapping from SEM gray images to colorful ima
 <img src="results_nst/AI-06.jpg" width="500px"/>
 
 An intelligent way to Colour Nanoscale Microscopy Images Using Machine Learning
- [Israel Goytom](http://web.mit.edu/phillipi/), 
+ [Israel Goytom](http://isrugeek.github.io), [Qin Wang](.),[Xinfei Zhou],Cong Liu,[Dong Dong Lin](www.dongdonglin.cn)
  Nature communication, 2019.
 
 
@@ -77,9 +77,9 @@ If you use this code for your research, please cite our paper An intelligent way
 
 ```
 @article{pix2pix2017,
-  title={Image-to-Image Translation with Conditional Adversarial Networks},
-  author={Isola, Phillip and Zhu, Jun-Yan and Zhou, Tinghui and Efros, Alexei A},
-  journal={CVPR},
-  year={2017}
+  title={An intelligent way to Colour Nanoscale Microscopy Images Using Machine Learning},
+  author={Israel Goytom1, Qin Wang†, Xinfei Zhou, Cong Liu, Dong Dong Lin*},
+  journal={Nature Communication},
+  year={2019}
 }
 ```
