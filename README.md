@@ -1,19 +1,19 @@
 
 # An intelligent way to Colour Nanoscale Microscopy Images Using Machine Learning
-[Project](https://github.com/isrugeek/semcolour) | [Arxiv](https://arxiv.org/abs/) | 
+[Project](https://github.com/isrugeek/semcolour) | [Arxiv](https://arxiv.org/abs/) |
 [Dataset](https://github.com/isrugeek/semcolour/datasets)
 
 Keras implementation for learning a mapping from SEM gray images to colorful images, for example:
 
 <img src="results_nst/AI-06.jpg" width="500px"/>
 <p float="left">
-<img src="results_nst/AI-06.jpg" width="100px"/>
-<img src="results_nst/AI-06.jpg" width="100px"/>
-<img src="results_nst/AI-06.jpg" width="100px"/>
-<img src="results_nst/AI-06.jpg" width="100px"/>
-<img src="results_nst/AI-06.jpg" width="100px"/>
-<img src="results_nst/AI-06.jpg" width="100px"/>
-<img src="results_nst/AI-06.jpg" width="100px"/>
+<img src="results_nst/AI-12.jpg" width="100px"/>
+<img src="results_nst/AI-13.jpg" width="100px"/>
+<img src="results_nst/AI-14.jpg" width="100px"/>
+<img src="results_nst/AI-06_b.jpg" width="100px"/>
+<img src="results_nst/AI-11.jpeg" width="100px"/>
+<img src="results_nst/AI-15.jpg" width="100px"/>
+<img src="results_nst/AI-18.jpg" width="100px"/>
 </p>
 
 
@@ -22,7 +22,7 @@ An intelligent way to Colour Nanoscale Microscopy Images Using Machine Learning
  Nature communication, 2019.
 
 
-**Note**: Please check out our [Keras](https://github.com/isrugeek/semcolour) implementation for End2End ColorNet(End2End.ipynb) and CNN-NST(CnnNST.ipynb). 
+**Note**: Please check out our [Keras](https://github.com/isrugeek/semcolour) implementation for End2End ColorNet(End2End.ipynb) and CNN-NST(CnnNST.ipynb).
 
 ## Setup
 
@@ -38,7 +38,7 @@ An intelligent way to Colour Nanoscale Microscopy Images Using Machine Learning
 pip install scikit-image
 pip install jupyter
 ```
-- Install [livelossplot](https://github.com/stared/livelossplot)(optional) - a live monitor during training. 
+- Install [livelossplot](https://github.com/stared/livelossplot)(optional) - a live monitor during training.
 
 - Clone this repo:
 ```bash
@@ -65,7 +65,7 @@ iteration = 100
 target_size = (256, 256)
 ```
 ## Test
-Run the last cell in the `End2End.ipynb` file to test the datasets which in `devset_path` and save these to `results` directory. 
+Run the last cell in the `End2End.ipynb` file to test the datasets which in `devset_path` and save these to `results` directory.
 
 ## Note
 `flow_from_directory_regress.py` is rewrite the class `ImageDataGenerator`, adding `register_batch_process` method to make
