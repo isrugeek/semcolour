@@ -89,7 +89,7 @@ after load the pretrained weights, you can test the model directly instead of tr
 Check the code in `cnn_nst.ipynb`. 
 `reference_img` indicates the reference images, `dir_sem` is the directory which contains SEM gray images, `sem_input` indicates specific the input gray sem image.
 It doesn't like traditional neural style transfer process, It just learn how to map reference image from gray to color by CNN, then using the weights of the CNN to map the SEM input image to colorful image.
-`same_grey_same_colorize` can provide a constraint to put same color on the parts which are same gray level.
+`same_grey_same_colorize` function can provide a constraint to put same color on the parts which are same gray level,it can correct some CNN's mistakes.
 
 ## Citation
 If you use this code for your research, please cite our paper An intelligent way to Colour Nanoscale Microscopy Images Using Machine Learning <a href="https://arxiv.org/pdf/1611.07004v1.pdf">
