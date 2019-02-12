@@ -85,11 +85,11 @@ after load the pretrained weights, you can test the model directly instead of tr
 
 
 # CNN neural style transfer Network
-check the code in `cnn_nst.ipynb`.
-## Train
-`or_input` indicates the reference images
-
-
+## Train & Test
+Check the code in `cnn_nst.ipynb`. 
+`reference_img` indicates the reference images, `dir_sem` is the directory which contains SEM gray images, `sem_input` indicates specific the input gray sem image.
+It will learn how to map reference image from gray to color by CNN, then use the weights of the CNN to map SEM input image to colorful image.
+`same_grey_same_colorize` can provide a constraint to put same color on the parts which are same gray level.
 
 ## Citation
 If you use this code for your research, please cite our paper An intelligent way to Colour Nanoscale Microscopy Images Using Machine Learning <a href="https://arxiv.org/pdf/1611.07004v1.pdf">
