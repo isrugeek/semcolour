@@ -22,7 +22,7 @@ An intelligent way to Colour Nanoscale Microscopy Images Using Machine Learning
  Nature communication, 2019.
 
 
-**Note**: Please check out our [Keras](https://github.com/isrugeek/semcolour) implementation for End2End ColorNet(End2End.ipynb) and CNN-NST(CnnNST.ipynb).
+**Note**: Please check out our [Keras](https://github.com/isrugeek/semcolour) implementation for End2End ColorNet(End2End.ipynb) and CNN-NST(cnn_nst.ipynb).
 
 ## Setup
 
@@ -33,10 +33,11 @@ An intelligent way to Colour Nanoscale Microscopy Images Using Machine Learning
 
 ### Getting Started
 - Install keras with tensorflow backend and dependencies from https://keras.io/#installation
-- Install python packages `jupyter-notebook` and `scikit-image`
+- Install python packages `jupyter-notebook`, `scikit-image` and `opencv` 
 ```bash
 pip install scikit-image
 pip install jupyter
+pip install opencv-python
 ```
 - Install [livelossplot](https://github.com/stared/livelossplot)(optional) - a live monitor during training.
 
@@ -46,6 +47,7 @@ git clone https://github.com/isrugeek/semcolour
 cd semcolour
 ```
 # End2End Training Network
+check the code in `End2End.ipynb`.
 ## Train
 Setting the right gpu configure.
 ex:
@@ -80,6 +82,14 @@ The pre-trained models `pretrained_end2end_model.h5` can be loaded by running fo
 model.load_weights('pretrained_end2end_model.h5')
 ```
 after load the pretrained weights, you can test the model directly instead of training.
+
+
+# CNN neural style transfer Network
+check the code in `cnn_nst.ipynb`.
+## Train
+`or_input` indicates the reference images
+
+
 
 ## Citation
 If you use this code for your research, please cite our paper An intelligent way to Colour Nanoscale Microscopy Images Using Machine Learning <a href="https://arxiv.org/pdf/1611.07004v1.pdf">
