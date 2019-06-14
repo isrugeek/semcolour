@@ -1,5 +1,5 @@
 
-# An intelligent way to Colour Nanoscale Microscopy Images Using Machine Learning
+# Nanoscale Microscopy Images Colourization Using Neural Networks
 [Project](https://github.com/isrugeek/semcolour) | [Arxiv](https://arxiv.org/abs/) |
 [Dataset](https://github.com/isrugeek/semcolour/datasets)
 
@@ -17,7 +17,7 @@ Keras implementation for learning a mapping from SEM gray images to colorful ima
 </p>
 
 
-An intelligent way to Colour Nanoscale Microscopy Images Using Machine Learning
+Nanoscale Microscopy Images Colourization Using Neural Networks
  [Israel Goytom](http://isrugeek.github.io), [Qin Wang](.),[Xinfei Zhou](.),Cong Liu,[Dong Dong Lin](www.dongdonglin.cn)
  Nature communication, 2019.
 
@@ -96,9 +96,9 @@ If you use this code for your research, please cite our paper An intelligent way
 </a>:
 
 ```
-@article{pix2pix2017,
-  title={An intelligent way to Colour Nanoscale Microscopy Images Using Machine Learning},
-  author={Israel Goytom1, Qin Wang†, Xinfei Zhou, Cong Liu, Dong Dong Lin*},
+@article{nanoscaleCol2019,
+  title={Nanoscale Microscopy Images Colourization Using Neural Networks},
+  author={Israel Goytom*, Qin Wang*, Xinfei Zhou, Cong Liu, Dong Dong Lin+},
   journal={Nature Communication},
   year={2019}
 }
