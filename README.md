@@ -22,7 +22,7 @@ Nanoscale Microscopy Images Colourization Using Neural Networks
  Nature communication, 2019.
 
 
-**Note**: Please check out our [Keras](https://github.com/isrugeek/semcolour) implementation for End2End ColorNet(End2End.ipynb) and CNN-NST(cnn_nst.ipynb).
+**Note**: Please check out our [Tensorflow](https://github.com/isrugeek/semcolour) implementation for End2End ColorNet(End2End.ipynb) and CNN-NST(cnn_nst.ipynb).
 
 ## Setup
 
