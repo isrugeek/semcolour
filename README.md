@@ -18,8 +18,9 @@ Keras implementation for learning a mapping from SEM gray images to colorful ima
 
 
 Nanoscale Microscopy Images Colourization Using Neural Networks
- [Israel Goytom](http://isrugeek.github.io), [Qin Wang](.),[Xinfei Zhou](.),Cong Liu,[Dong Dong Lin](www.dongdonglin.cn)
- Nature communication, 2019.
+<!--- [Israel Goytom](http://isrugeek.github.io), [Qin Wang](.),[Xinfei Zhou](.),Cong Liu,[Dong Dong Lin](www.dongdonglin.cn)
+ Nature communication, 2019. -->
+
 
 
 **Note**: Please check out our [Tensorflow](https://github.com/isrugeek/semcolour) implementation for End2End ColorNet(End2End.ipynb) and CNN-NST(cnn_nst.ipynb).
@@ -92,9 +93,9 @@ It doesn't like traditional neural style transfer process, It just learn how to 
 `same_grey_same_colorize` function can provide a constraint to put same color on the parts which are same gray level,it can correct some CNN's mistakes.
 
 ## Citation
-If you use this code for your research, please cite our paper An intelligent way to Colour Nanoscale Microscopy Images Using Machine Learning <a href="https://arxiv.org/pdf/1611.07004v1.pdf">
+If you use this code for your research, please cite our paper Nanoscale Microscopy Images Colourization Using Neural Networks <a href="https://arxiv.org/pdf/1611.07004v1.pdf">
 </a>:
-
+<!---
 ```
 @article{nanoscaleCol2019,
   title={Nanoscale Microscopy Images Colourization Using Neural Networks},
@@ -103,3 +104,4 @@ If you use this code for your research, please cite our paper An intelligent way
   year={2019}
 }
 ```
+-->
