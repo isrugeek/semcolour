@@ -99,7 +99,7 @@ If you use this code for your research, please cite our paper Nanoscale Microsco
 ```
 @article{nanoscaleCol2019,
   title={Nanoscale Microscopy Images Colourization Using Neural Networks},
-  author={Israel Goytom*, Qin Wang*, Xinfei Zhou, Cong Liu, Dong Dong Lin+},
+  author={Israel Goytom*, Qin Wang, Kris Sankaran, Yoshua Bengio, Dong Dong Lin+},
   journal={Nature Communication},
   year={2019}
 }
