@@ -2,7 +2,7 @@
 # Nanoscale Microscopy Images Colourization Using Neural Networks
 [Project](https://github.com/isrugeek/semcolour) | [Arxiv](https://arxiv.org/abs/) |
 [Dataset](https://github.com/isrugeek/semcolour/tree/master/datasets)
-[Dataset_2] (https://drive.google.com/open?id=1R01dxK50G6gfjD4ObtLH73ivWrr6e6WA)
+[Dataset_2](https://drive.google.com/open?id=1R01dxK50G6gfjD4ObtLH73ivWrr6e6WA)
 
 Keras implementation for learning a mapping from SEM gray images to colorful images, for example:
 
