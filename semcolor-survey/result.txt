@@ -1,0 +1,1 @@
+nst:0.6875,nst:0.6875,end2end:0.6875,end2end:0.6875,nst:0.625,end2end:0.5625,nst:0.5,end2end:0.5,nst:0.4375,end2end:0.75,nst:0.625,nst:0.5,end2end:0.4375,nst:0.375,nst:0.4375,end2end:0.625,nst:0.375,nst:0.6875,end2end:0.25,end2end:0.4375,end2end:0.625,
