@@ -1,1 +1,3 @@
-# HELLO WORLD
+# Introduction
+This is a simple website based php and js. We use php to randomly select 16 images from dataset and 16 images from AI's prediction (NST or End2End model which you can specify it by 'type' parameter in "http://x.x.x.x/index.php?type=nst" type can be 'nst' or 'end2end'). 32 images randomly be placed on the website. The volunteer should select 16 images which they think are predictions by AI. After click the submit button, they will got a score which is the ratio of the number of images are prediction by AI from user's selection and the number of images from dataset indicates user's accuracy. In the paper we use 1 minus this score to represent our model's accuracy.
+<img src="/semcolor-survey/WX20190923-134237.png" width="500px"/>
