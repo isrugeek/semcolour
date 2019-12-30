@@ -1,6 +1,6 @@
 
 # Nanoscale Microscopy Images Colourization Using Neural Networks
-[Project](https://github.com/isrugeek/semcolour) | [Arxiv](https://arxiv.org/abs/) |
+[Project](https://github.com/isrugeek/semcolour) | [Arxiv](https://arxiv.org/abs/1912.07964) |
 [Dataset](https://github.com/isrugeek/semcolour/tree/master/datasets) |
 [Dataset_2](https://drive.google.com/open?id=1F-movFr2ukPzdkBobrzarrB1DMa_1WxG)
 
@@ -96,13 +96,13 @@ It doesn't like traditional neural style transfer process, It just learn how to 
 ## Citation
 If you use this code for your research, please cite our paper Nanoscale Microscopy Images Colourization Using Neural Networks <a href="https://arxiv.org/pdf/1611.07004v1.pdf">
 </a>:
-<!---
+
 ```
-@article{nanoscaleCol2019,
-  title={Nanoscale Microscopy Images Colourization Using Neural Networks},
-  author={Israel Goytom*, Qin Wang, Kris Sankaran, Yoshua Bengio, Dong Dong Lin+},
-  journal={Nature Communication},
+@article{goytom2019nanoscale,
+  title={Nanoscale Microscopy Images Colourisation Using Neural Networks},
+  author={Goytom, Israel and Wang, Qin and Yu, Tianxiang and Sankaran, Kris and Lin, Dongdong},
+  journal={arXiv preprint arXiv:1912.07964},
   year={2019}
 }
 ```
--->
+
